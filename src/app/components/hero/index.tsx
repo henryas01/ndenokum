@@ -1,6 +1,6 @@
 "use client";
-import { PlayArrow } from "@mui/icons-material";
-import { Button } from "@mui/material";
+// import { PlayArrow } from "@mui/icons-material";
+// import { Button } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 
@@ -10,16 +10,18 @@ const HeroSection = () => {
       <div className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-12 relative z-10">
         {/* Left Content */}
         <div className="max-w-xl text-center md:text-left">
-          <div className="bg-white inline-block px-4 py-1 rounded-md mb-4 shadow text-orange-500 font-medium">
-            ⭐️ 4.5 | 5K+ Happy Review
-          </div>
+          {/* <div className="bg-white inline-block px-4 py-1 rounded-md mb-4 shadow text-orange-500 font-medium">
+            ⭐️ 4.5 | 5K+Nde Nok
+          </div> */}
           <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
-            Burgers That <br /> Love the Earth!
+            Selamat Datang di Nde Nok
           </h1>
-          <p className="text-white mt-2 mb-6">
-            Crispy, Crunchy, Veggie Deliciousness!
+          <p className="text-black mt-2 mb-6 text-shadow-md ">
+            Cita rasa keripik khas Kota Serang yang renyah, gurih, dan bikin
+            nagih! Kami adalah UMKM lokal yang menghadirkan aneka camilan
+            tradisional dengan sentuhan modern.
           </p>
-          <div className="flex gap-4 justify-center md:justify-start">
+          {/* <div className="flex gap-4 justify-center md:justify-start">
             <Button
               variant="contained"
               sx={{ bgcolor: "#fff", color: "#f97316", fontWeight: "bold" }}
@@ -32,7 +34,7 @@ const HeroSection = () => {
             >
               How to get order...
             </Button>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Image Section */}
@@ -47,17 +49,17 @@ const HeroSection = () => {
               <path d="M50 0c9 0 12 8 20 8s14-2 18 4 4 10 0 18 8 11 8 20-8 12-8 20 2 14-4 18-10 4-18 0-11 8-20 8-12-8-20-8-14 2-18-4-4-10 0-18-8-11-8-20 8-12 8-20-2-14 4-18 10-4 18 0 11-8 20-8z" />
             </svg>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-orange-500 font-extrabold text-xl text-center">
-              75% OFF
+              Mantap 100%
               <br />
             </div>
           </div>
 
           {/* Burger Image */}
           <Image
-            src="/burger_logo.png"
+            src="/logo.png"
             alt="Burgers"
-            width={925}
-            height={925}
+            width={1000}
+            height={1000}
             className="z-20"
           />
         </div>

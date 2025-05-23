@@ -23,7 +23,6 @@ export default function Navbar({ children }: Readonly<PropsWithChildren>) {
           <li className="hover:underline cursor-pointer">Contact</li>
         </ul>
         <ul className="md:flex text-white">
-          <li className="hover:underline cursor-pointer ">search</li>
           <li className="hover:underline cursor-pointer">☰</li>
         </ul>
       </nav>

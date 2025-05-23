@@ -8,21 +8,21 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 
 const testimonials = [
   {
-    text: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua",
-    name: "Mandy Oza",
-    title: "Xyz Company Ceo",
+    text: "Keripik tangkil atau kerutangnya sangat lezat. Saya senang dengan hasilnya.",
+    name: "Budiharto",
+    title: "Karyawan Swasta",
     rating: 4.5,
   },
   {
-    text: "Super fast delivery and great taste. Loved it!",
-    name: "John Doe",
-    title: "Foodie",
+    text: "Keripik pisang sangat enak. Saya senang dengan hasilnya.",
+    name: "Hilda",
+    title: "Mahasiswa",
     rating: 5,
   },
   {
-    text: "Affordable and healthy. Just what I needed.",
-    name: "Amelia Ray",
-    title: "Startup Founder",
+    text: "Semprong khas daerah ini sangat lezat. Saya suka dengan rasanya",
+    name: "Yuda",
+    title: "Polisi",
     rating: 4.5,
   },
 ];
@@ -44,7 +44,7 @@ export default function TestimonialSlider() {
   return (
     <section className="bg-gradient-to-br from-orange-200 to-orange-300 py-20 text-center">
       <h2 className="text-2xl md:text-3xl font-bold text-white mb-12 tracking-wide">
-        — WHAT OUR CUSTOMER SAYS —
+        — Testimoni Pelanggan —
       </h2>
 
       <div className="relative max-w-6xl mx-auto px-4">

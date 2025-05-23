@@ -7,22 +7,45 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { FavoriteBorder, ShoppingBag, ArrowForward } from "@mui/icons-material";
+//ShoppingBag
+
+import { FavoriteBorder, ArrowForward } from "@mui/icons-material";
 
 const items = [
-  { id: 1, image: "/burger1.png", title: "Veg Chizy Burger", price: "₹250.00" },
-  { id: 2, image: "/burger2.png", title: "Veg Chizy Burger", price: "₹250.00" },
-  { id: 3, image: "/burger3.png", title: "Veg Chizy Burger", price: "₹250.00" },
-  { id: 4, image: "/burger4.png", title: "Veg Chizy Burger", price: "₹250.00" },
+  {
+    id: 1,
+    image: "/product4.png",
+    title: "Keripik Baso",
+    price: "Rp. 20.000",
+  },
+  {
+    id: 2,
+    image: "/product5.png",
+    title: "Keripik Tangkil",
+    price: "Rp. 20.000",
+  },
+  {
+    id: 3,
+    image: "/product6.png",
+    title: "keripik Pisang",
+    price: "Rp. 20.000",
+  },
+  {
+    id: 4,
+    image: "/product5.png",
+    title: "Keripik Tangkil",
+    price: "Rp. 20.000",
+  },
 ];
 
 const HotItemsSlider = () => {
   return (
     <div className="py-16 px-6 md:px-20 bg-orange-100 text-center  bg-gradient-to-r from-orange-100 to-orange-400 min-h-screen">
-      <h2 className="text-2xl font-bold text-orange-600 mb-2">— HOT ITEMS —</h2>
-      <p className="text-sm text-white mb-8">
-        Locally sourced, organic ingredients for a fresh and eco-friendly
-        experience
+      <h2 className="text-2xl font-bold text-orange-600 mb-2">
+        — Produk Terlaris —
+      </h2>
+      <p className=" text-black mt-2  text-shadow-md mb-8">
+        Nde Nok bangga mempersembahkan berbagai pilihan keripik istimewa:
       </p>
 
       <Swiper
@@ -40,11 +63,11 @@ const HotItemsSlider = () => {
       >
         {items.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="bg-orange-500 rounded-2xl text-white relative overflow-hidden p-4 pt-6 pb-8">
+            <div className="bg-orange-500 rounded-2xl text-white relative overflow-hidden  pt-6 ">
               <div className="absolute top-3 right-3 text-white/80">
                 <FavoriteBorder />
               </div>
-              <div className="flex justify-center mb-4">
+              <div className="flex justify-center">
                 <Image
                   src={item.image}
                   alt={item.title}
@@ -53,13 +76,15 @@ const HotItemsSlider = () => {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold">{item.title}</h3>
-              <div className="flex justify-between items-center mt-2">
-                <span className="text-sm font-bold">{item.price}</span>
-                <ShoppingBag fontSize="small" />
-              </div>
-              <div className="absolute bottom-0 right-0 p-2">
-                <ArrowForward fontSize="small" />
+              <div className="p-5 relative">
+                <h3 className="text-lg font-semibold">{item.title}</h3>
+                <div className="flex justify-between items-center mt-2">
+                  <span className="text-sm font-bold">{item.price}</span>
+                  {/* <ShoppingBag fontSize="small" /> */}
+                </div>
+                <div className="absolute bottom-0 right-0 p-2">
+                  <ArrowForward fontSize="small" />
+                </div>
               </div>
             </div>
           </SwiperSlide>

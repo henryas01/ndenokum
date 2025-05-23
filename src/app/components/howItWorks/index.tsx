@@ -3,21 +3,21 @@ import { FiArrowRight } from "react-icons/fi";
 
 const steps = [
   {
-    title: "Choose Your Meals",
+    title: "Pembuatan",
     description:
-      "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor",
+      "Produk dibuat setiap hari secara fresh dengan bahan-bahan berkualitas tinggi dan higienis dari pelaku UMKM lokal.",
     icon: <FaUtensils size={28} className="text-white" />,
   },
   {
-    title: "Track Order",
+    title: "Pengiriman",
     description:
-      "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor",
+      "Pengiriman cepat dan aman ke seluruh Indonesia menggunakan jasa ekspedisi terpercaya.",
     icon: <FaTruck size={28} className="text-white" />,
   },
   {
-    title: "Collect Order",
+    title: "Pengemasan",
     description:
-      "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor",
+      "Setiap camilan dikemas dengan rapi dan kedap udara untuk menjaga kerenyahan dan rasa otentik khas Nde Nok.",
     icon: <FaBoxOpen size={28} className="text-white" />,
   },
 ];
@@ -26,7 +26,7 @@ const HowItWorks = () => {
   return (
     <section className="bg-gradient-to-r from-orange-100 to-orange-200 px-6 md:px-20 py-16 text-center">
       <h2 className="text-2xl font-bold text-orange-700 mb-12">
-        — HOW DOES IT WORKS —
+        Bagaimana Kami Memberikan
       </h2>
 
       <div className="grid md:grid-cols-3 gap-8">

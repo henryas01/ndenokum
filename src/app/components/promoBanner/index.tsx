@@ -21,7 +21,7 @@ const PromoBanner = () => {
         {/* Image Section */}
         <div className="relative w-full h-[280px] md:h-[360px] mt-10 md:mt-0">
           <img
-            src="/promo-burger.png"
+            src="/kripik_pisang_hero1.png"
             alt="Burger Promo"
             // fill
             className="object-contain"

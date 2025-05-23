@@ -1,6 +1,7 @@
 "use client";
 
 import { FaArrowRight } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,12 +10,19 @@ export default function Footer() {
         {/* Logo & Info */}
         <div className="space-y-4">
           <div className="flex items-center space-x-2">
-            <div className="text-2xl">🍔</div>
-            <span className="font-bold text-lg">BURGER</span>
+            <div className="text-2xl">
+              <Image
+                src="/logo.png"
+                alt="logo"
+                className="w-8 h-8"
+                width={100}
+                height={100}
+              />
+            </div>
+            <span className="font-bold text-lg">Nde Nok</span>
           </div>
           <p className="text-xs leading-relaxed uppercase">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            UPPKA Kp. Gowok Sentul Sukajaya - Serang
           </p>
           <div className="pt-2 text-xs space-y-1">
             <p>+91 9876543210</p>
@@ -25,14 +33,14 @@ export default function Footer() {
 
         {/* Services */}
         <div>
-          <h4 className="font-bold mb-4">Service</h4>
+          {/* <h4 className="font-bold mb-4">Service</h4>
           <ul className="space-y-2">
             <li>Burger</li>
             <li>Menu</li>
             <li>Hot Items</li>
             <li>About</li>
             <li>Services</li>
-          </ul>
+          </ul> */}
         </div>
 
         {/* Social */}
@@ -65,7 +73,7 @@ export default function Footer() {
 
       {/* Bottom Note */}
       <div className="mt-12 text-xs text-center border-t border-white/30 pt-4">
-        Burger.Com© All Right Reserve
+        <p>© 2023 Nde Nok. All rights reserved.</p>
       </div>
     </footer>
   );
