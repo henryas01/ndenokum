@@ -7,14 +7,14 @@ const PromoBanner = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center">
         {/* Text Section */}
         <div className="text-white space-y-4 z-10 relative">
-          <h3 className="text-xl">Get Up To</h3>
+          <h3 className="text-xl">Rasakan Lezatnya</h3>
           <h2 className="text-5xl font-bold">
-            <span className="text-white">50%</span>{" "}
-            <span className="text-white">OFF</span>
+            <span className="text-white">Camilan</span>{" "}
+            <span className="text-white">Pilihan</span>
           </h2>
-          <p className="text-lg">On Your 2 Order’s</p>
+          <p className="text-lg">Dibuat dengan cinta & rasa khas dari Serang</p>
           <button className="mt-4 bg-white text-orange-600 font-semibold px-6 py-2 rounded-lg shadow hover:opacity-90 transition">
-            Order Now
+            Pesan Sekarang
           </button>
         </div>
 
