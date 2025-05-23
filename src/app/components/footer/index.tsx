@@ -49,8 +49,7 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>Facebook</li>
             <li>Instagram</li>
-            <li>Linked In</li>
-            <li>Tweeter</li>
+            <li>Tiktok</li>
             <li>Whatsapp</li>
           </ul>
         </div>
@@ -72,7 +71,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Note */}
-      <div className="mt-12 text-xs text-center border-t border-white/30 pt-4">
+      <div className="mt-12  text-center border-t border-white/30 pt-4">
         <p>© 2023 Nde Nok. All rights reserved.</p>
       </div>
     </footer>

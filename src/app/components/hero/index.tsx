@@ -1,6 +1,6 @@
 "use client";
-// import { PlayArrow } from "@mui/icons-material";
-// import { Button } from "@mui/material";
+import { PlayArrow } from "@mui/icons-material";
+import { Button } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 
@@ -21,7 +21,7 @@ const HeroSection = () => {
             nagih! Kami adalah UMKM lokal yang menghadirkan aneka camilan
             tradisional dengan sentuhan modern.
           </p>
-          {/* <div className="flex gap-4 justify-center md:justify-start">
+          <div className="flex gap-4 justify-center md:justify-start">
             <Button
               variant="contained"
               sx={{ bgcolor: "#fff", color: "#f97316", fontWeight: "bold" }}
@@ -34,26 +34,11 @@ const HeroSection = () => {
             >
               How to get order...
             </Button>
-          </div> */}
+          </div>
         </div>
 
         {/* Right Image Section */}
         <div className="relative w-full md:w-1/2 flex justify-center items-center mb-8 md:mb-0 z-10">
-          {/* 75% OFF Badge */}
-          <div className="absolute top-20 left-6  z-21 w-[189px] h-[189px]">
-            <svg
-              viewBox="0 0 100 100"
-              className="w-full h-full fill-white drop-shadow-md"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M50 0c9 0 12 8 20 8s14-2 18 4 4 10 0 18 8 11 8 20-8 12-8 20 2 14-4 18-10 4-18 0-11 8-20 8-12-8-20-8-14 2-18-4-4-10 0-18-8-11-8-20 8-12 8-20-2-14 4-18 10-4 18 0 11-8 20-8z" />
-            </svg>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-orange-500 font-extrabold text-xl text-center">
-              Mantap 100%
-              <br />
-            </div>
-          </div>
-
           {/* Burger Image */}
           <Image
             src="/logo.png"
