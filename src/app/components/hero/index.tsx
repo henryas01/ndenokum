@@ -23,16 +23,17 @@ const HeroSection = () => {
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
             <Button
+              startIcon={<PlayArrow />}
               variant="contained"
               sx={{ bgcolor: "#fff", color: "#f97316", fontWeight: "bold" }}
+              onClick={() =>
+                window.open(
+                  "https://wa.me/081908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda.",
+                  "_blank"
+                )
+              }
             >
-              Explore
-            </Button>
-            <Button
-              startIcon={<PlayArrow />}
-              sx={{ color: "#fff", textTransform: "none" }}
-            >
-              How to get order...
+              Pesan Sekarang
             </Button>
           </div>
         </div>

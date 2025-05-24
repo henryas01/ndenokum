@@ -35,9 +35,14 @@ const WhoWeAre = () => {
           </ul>
 
           <div className="mt-8 flex items-center gap-2 text-black text-shadow-mdfont-bold text-lg">
-            <FaPaperPlane className="text-xl" />
-            <a href="#" className="underline">
-              Go
+            <a
+              href="https://wa.me/081908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline dp-inline-block flex items-center gap-2"
+            >
+              <FaPaperPlane className="text-xl" />
+              <span>Go to WhatsApp</span>
             </a>
           </div>
         </div>

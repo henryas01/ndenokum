@@ -31,9 +31,6 @@ const PromoBanner = () => {
                 <path
                   d="M50 0c9 0 12 8 20 8s14-2 18 4 4 10 0 18 8 11 8 20-8 12-8 20 2 14-4 18-10 4-18 0-11 8-20 8-12-8-20-8-14 2-18-4-4-10 0-18-8-11-8-20 8-12 8-20-2-14 4-18 10-4 18 0 11-8 20-8z"
                   className="fill-white"
-                  style={{
-                    filter: "drop-shadow(0 4px 10px rgba(0,0,0,0.2))",
-                  }}
                 />
               </svg>
               <div className="absolute inset-0 flex items-center justify-center text-center">

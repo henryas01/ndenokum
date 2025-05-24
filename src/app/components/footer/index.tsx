@@ -25,32 +25,61 @@ export default function Footer() {
             UPPKA Kp. Gowok Sentul Sukajaya - Serang
           </p>
           <div className="pt-2 text-xs space-y-1">
-            <p>+91 9876543210</p>
-            <p>mail@gmail.com</p>
-            <p>xyz, anyware rode, sectore 4</p>
+            <p>MUI: 17100019110915</p>
+            <p>Depnakes SP.NP 2932604P2KL</p>
+            <p>UMKM Mawar, Nde’Nok Serang - Banten</p>
           </div>
         </div>
 
         {/* Services */}
         <div>
-          {/* <h4 className="font-bold mb-4">Service</h4>
+          <h4 className="font-bold mb-4">Service</h4>
           <ul className="space-y-2">
-            <li>Burger</li>
-            <li>Menu</li>
-            <li>Hot Items</li>
-            <li>About</li>
-            <li>Services</li>
-          </ul> */}
+            <li>No Hp: 081908442973</li>
+            <li>e-mail: oleh2nde.nok@gmail.com</li>
+          </ul>
         </div>
 
         {/* Social */}
         <div>
           <h4 className="font-bold mb-4">Follow Us</h4>
           <ul className="space-y-2">
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Tiktok</li>
-            <li>Whatsapp</li>
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id= 61575724936852"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/nde.nok?igsh=OTEzcjVub2RnY2hp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@oleh_oleh_khas_banten?_t=ZS-8wc2tRI9MAB&_r=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Tiktok
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/081908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Whatsapp
+              </a>
+            </li>
           </ul>
         </div>
 
