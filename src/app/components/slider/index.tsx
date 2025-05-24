@@ -35,7 +35,7 @@ const items = [
     price: "Rp. 20.000",
   },
   {
-    id: 4,
+    id: 5,
     image: "/product8.png",
     title: "Keripik Pisang Manis",
     price: "Rp. 20.000",
