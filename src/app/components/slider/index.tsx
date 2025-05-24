@@ -7,33 +7,37 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-//ShoppingBag
-
 import { FavoriteBorder, ArrowForward } from "@mui/icons-material";
 
 const items = [
   {
     id: 1,
     image: "/product4.png",
-    title: "Keripik Baso",
+    title: "Baso Kering",
     price: "Rp. 20.000",
   },
   {
     id: 2,
     image: "/product5.png",
-    title: "Keripik Tangkil",
-    price: "Rp. 20.000",
+    title: "Kerupuk Tangkil",
+    price: "Rp. 17.500",
   },
   {
     id: 3,
     image: "/product6.png",
-    title: "keripik Pisang",
+    title: "Keripik Pisang",
     price: "Rp. 20.000",
   },
   {
     id: 4,
-    image: "/product5.png",
-    title: "Keripik Tangkil",
+    image: "/product7.png",
+    title: "Keripik Beras",
+    price: "Rp. 20.000",
+  },
+  {
+    id: 4,
+    image: "/product8.png",
+    title: "Keripik Pisang Manis",
     price: "Rp. 20.000",
   },
 ];
@@ -56,6 +60,7 @@ const HotItemsSlider = () => {
             slidesPerView: 3,
           },
         }}
+        loop
         navigation
         pagination={{ clickable: true }}
         modules={[Navigation, Pagination]}

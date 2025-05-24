@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-// import Image from "next/image";
+"use client";
+import { PlayArrow } from "@mui/icons-material";
+import { Button } from "@mui/material";
 
 const PromoBanner = () => {
   return (
@@ -13,9 +15,19 @@ const PromoBanner = () => {
             <span className="text-white">Pilihan</span>
           </h2>
           <p className="text-lg">Dibuat dengan cinta & rasa khas dari Serang</p>
-          <button className="mt-4 bg-white text-orange-600 font-semibold px-6 py-2 rounded-lg shadow hover:opacity-90 transition">
+          <Button
+            startIcon={<PlayArrow />}
+            variant="contained"
+            sx={{ bgcolor: "#fff", color: "#f97316", fontWeight: "bold" }}
+            onClick={() =>
+              window.open(
+                "https://wa.me/081908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda.",
+                "_blank"
+              )
+            }
+          >
             Pesan Sekarang
-          </button>
+          </Button>
         </div>
 
         {/* Image Section */}

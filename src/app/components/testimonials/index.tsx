@@ -57,6 +57,7 @@ export default function TestimonialSlider() {
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
+          loop
           breakpoints={{
             768: {
               slidesPerView: 1.5,
