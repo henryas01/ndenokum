@@ -73,7 +73,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://wa.me/081908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda."
+                href="https://wa.me/6281908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda."
                 target="_blank"
                 rel="noopener noreferrer"
               >

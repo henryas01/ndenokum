@@ -36,7 +36,7 @@ const WhoWeAre = () => {
 
           <div className="mt-8 flex items-center gap-2 text-black text-shadow-mdfont-bold text-lg">
             <a
-              href="https://wa.me/081908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda."
+              href="https://wa.me/6281908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda."
               target="_blank"
               rel="noopener noreferrer"
               className="underline dp-inline-block flex items-center gap-2"

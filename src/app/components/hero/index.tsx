@@ -28,7 +28,7 @@ const HeroSection = () => {
               sx={{ bgcolor: "#fff", color: "#f97316", fontWeight: "bold" }}
               onClick={() =>
                 window.open(
-                  "https://wa.me/081908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda.",
+                  "https://wa.me/+6281908442973?text=Halo%20Nde%27Nok!%20Saya%20tertarik%20untuk%20membeli%20produk%20anda.",
                   "_blank"
                 )
               }
